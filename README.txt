@@ -1,12 +1,24 @@
-* Foldy Child Theme for Toolbox Parent Theme
+##Foldy Child Theme for Toolbox Parent Theme
 * Github project link: https://github.com/art209
+
 Name: Matt Vincent
-Website: http://www.art209.net
+Website: http://www.i824u.com
 Twitter: http://twitter.com/art209design
 
 
-README from Paravel's Foldy960
+##functions.php includes
+* 03/07/13
+	* One Header widget and three footer widgets
+	* wp_enqueue_script to add jquery
+	* no comments on pages script
+	* registered secondary nav
 
+
+
+
+
+
+README included in Paravel's Foldy960
 # Foldy960 - A responsive 960 grid from Paravel
 Foldy960 isn't aiming to be Yet-Another-CSS-Framework and we hesitate to use the term "Boilerplate".  Foldy is just a little kit and some extra classes to get you going on making your [960.gs](http://960.gs) design responsive.
 
