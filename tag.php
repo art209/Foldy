@@ -67,5 +67,6 @@ get_header(); ?>
 <?php get_sidebar(); ?>
 </div><!-- .grid-2 -->
 </div><!-- end row -->
+<div class="row">
 <div class="grid-6">
 <?php get_footer(); ?>

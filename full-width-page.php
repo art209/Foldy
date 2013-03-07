@@ -9,6 +9,7 @@
 
 get_header(); ?>
 <script></script>
+<div class="row">
 <div class="grid-6">
 		<div id="primary" class="full-width">
 			<div id="content" role="main">
@@ -24,6 +25,7 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #primary -->
 </div><!-- .grid-6 -->
-<div class="clear"></div>
+</div><!-- .row -->
+<div class="row">
 <div class="grid-6">
 <?php get_footer(); ?>

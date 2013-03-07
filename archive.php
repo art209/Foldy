@@ -12,6 +12,7 @@
  */
 
 get_header(); ?>
+<div class="row">
 <div class="grid-4">
 		<div id="primary">
 		<section id="primary">
@@ -76,5 +77,6 @@ get_header(); ?>
 <?php get_sidebar(); ?>
 </div><!-- .grid-2 -->
 </div><!-- end row -->
+<div class="row">
 <div class="grid-6">
 <?php get_footer(); ?>

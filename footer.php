@@ -24,6 +24,7 @@
 </div><!-- #copy -->
 <a href="#" class="scrollup"></a>
 </div><!-- .grid-6 -->
+</div><!-- .row -->
 </div><!-- .container -->
  <script type="text/javascript">
    jQuery(document).ready(function($) {

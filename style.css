@@ -460,9 +460,9 @@ img.alignright {margin: .75em 0 0 1%;}
 	height: auto;
 	padding: 1.5% 1.5% 5.5% 1.5%;
 	background: white;
-	box-shadow: 0px 0px 4px 2px rgba(0,0,0,.4);
-	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,.4);
-	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,.4);}
+	box-shadow: 0 3px 6px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.4);}
 .tilt-left{-webkit-transform: rotate(-2deg);-moz-transform: rotate(-2deg);}
 .tilt-right{-webkit-transform: rotate(1deg);-moz-transform: rotate(1deg);}
 .blue-shadow {
@@ -534,6 +534,31 @@ hr {border: 1px solid #eeeeee;}
 ul.u {list-style-type:circle;line-height: 125%;}
 .center {text-align: center;}
 
+/* #Clearing (some from getskeleton.com)
+================================================== */
+
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
 #clear {clear: both;}
 .clear {
   clear: both;
@@ -541,8 +566,7 @@ ul.u {list-style-type:circle;line-height: 125%;}
   overflow: hidden;
   visibility: hidden;
   width: 0;
-  height: 0;
-  zoom:1;}
+  height: 0;}
 
 
 /* =Scroll up

@@ -5,9 +5,11 @@ Name: Matt Vincent
 Website: http://www.i824u.com
 Twitter: http://twitter.com/art209design
 
-
-##functions.php includes
+## Changelog
 * 03/07/13
+	*added rows
+##functions.php includes
+* 03/06/13
 	* One Header widget and three footer widgets
 	* wp_enqueue_script to add jquery
 	* no comments on pages script

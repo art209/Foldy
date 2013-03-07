@@ -7,6 +7,7 @@
  */
 
 get_header(); ?>
+<div class="row">
 <div class="grid-6">
 		<section id="primary">
 			<div id="content" role="main">
@@ -46,6 +47,7 @@ get_header(); ?>
 			</div><!-- #content -->
 		</section><!-- #primary -->
 </div><!-- .grid-6 -->
-<div class="clear"></div>
+</div><!-- .row -->
+<div class="row">
 <div class="grid-6">
 <?php get_footer(); ?>
