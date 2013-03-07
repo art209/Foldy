@@ -1,5 +1,5 @@
 ##Foldy Child Theme for Toolbox Parent Theme
-* Github project link: https://github.com/art209
+* Github project link: https://github.com/art209/Foldy
 
 Name: Matt Vincent
 Website: http://www.i824u.com
@@ -12,9 +12,6 @@ Twitter: http://twitter.com/art209design
 	* wp_enqueue_script to add jquery
 	* no comments on pages script
 	* registered secondary nav
-
-
-
 
 
 
