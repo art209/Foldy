@@ -61,9 +61,6 @@ jQuery(document).ready(function($) {
 <!-- end PrettyPhoto  -->
 </head>
 <body <?php body_class(); ?>>
-<!-- remove GitHub banner -->
-<a href="https://github.com/art209"><img style="position: absolute; top: 0; right: 0; border: 0;z-index:9901" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-
 <div class="container">
 <div class="row">
 <div class="grid-4"><h1 class="logo"><a href="#">Foldy - Toolbox</a></h1></div>
